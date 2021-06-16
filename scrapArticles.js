@@ -7,7 +7,8 @@ var keywords = ['environnement', 'PACTA', 'pacta', 'Pacta', 'Sustainability', 's
                 'RSE', 'ESG', 'durable', 'Durable', 'développement durable', 'carbone', 'Carbone', 'charbon', 'pétrole', 'oil', 
                 'décarbonisation', 'empreinte carbone', 'CO2', 'finance durable', 'ecology', 'Ecology', 'écologie', 'Écologie',
                 'sustainable development', 'green deal', 'gaz à effets de serre', 'scope 1', 'scope 2', 'émissions', 'pollution', 
-                'obligations vertes', 'green bonds', 'énergies', 'Énergies', 'énergies fossible', 'énergies renouvelabes', 'coal'];
+                'obligations vertes', 'green bonds', 'énergies', 'Énergies', 'énergies fossible', 'énergies renouvelabes', 'coal', 'katowice', 
+                'Katowice'];
 
 var fullElem = []
 
