@@ -5,7 +5,7 @@ var scrapArticles = require('./scrapArticles.js').scrapArticles
 
 app.use(express.static('www'));
 
-/*
+
 var server = app.listen(8000, function () {
 
     var host = server.address().address
@@ -14,8 +14,7 @@ var server = app.listen(8000, function () {
     console.log('Express app listening at http://%s:%s', host, port)
 
 })
-*/
-scrapArticles()
+
 app.get('/askArticles', async function (req, res) {
     console.log('Fetch new articles...')
     var articles = await scrapArticles()
@@ -23,4 +22,7 @@ app.get('/askArticles', async function (req, res) {
     res.send(articles)
 })
 
-module.exports = app
+//scrapArticles()
+
+
+//module.exports = app
